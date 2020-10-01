@@ -1,0 +1,44 @@
+//common styles
+.h-1 {
+  height: 1.5rem;
+}
+.form-group {
+  margin-bottom: 0;
+}
+body {
+  font-family: Roboto;
+}
+.table-user {
+  .thead,
+  .tbody {
+    .item-table {
+      &:not(:last-child) {
+        padding: 5px 8px;
+      }
+      &:nth-child(1) {
+        width: 20%;
+      }
+      &:nth-child(2) {
+        width: 20%;
+      }
+      &:nth-child(3) {
+        width: 20%;
+      }
+      &:nth-child(4) {
+        width: 10%;
+      }
+      &:nth-child(5) {
+        width: 10%;
+      }
+      &:nth-child(6) {
+        width: 10%;
+      }
+      &:nth-child(7) {
+        width: 10%;
+      }
+      &:nth-child(8) {
+        width: 10%;
+      }
+    }
+  }
+}

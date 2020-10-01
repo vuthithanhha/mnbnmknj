@@ -1,0 +1,87 @@
+<div class="boxMain">
+  <div>
+    <div class="">
+      <div class="modal-header text-center border-0 w-100">
+        <img class="img" (click)="goBack()" src="assets/images/arrown.svg">
+        <p class="modal-title w-100"><b>THÔNG TIN KHÁCH HÀNG</b>
+          <p>
+      </div>
+      <form [formGroup]="custForm">
+        <div class="modal-body pl-5 pr-5 pb-0 pt-0">
+          <div class="text-danger h-1"> </div>
+          <div class="form-group row">
+            <div class="col-12 ">
+              <div class="md-form mb-0 mt-0">
+                <input type="text" id="buyerName" placeholder="Họ và tên người mua hàng" name="buyerName"
+                  class="form-control validate">
+              </div>
+              <div class="text-danger h-1">
+              </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-12">
+              <div class="md-form mb-0 mt-0">
+                <input type="number" placeholder="Số điện thoại" id="buyerPhone" name="buyerPhone"
+                  formControlName="buyerPhone" class="form-control validate">
+              </div>
+            </div>
+          </div>
+          <div class="text-danger h-1">
+          </div>
+          <div class="form-group row">
+            <div class="col-12">
+              <div class="md-form mb-0 mt-0">
+                <input type="text" placeholder="Email (Tùy chọn)" id="buyerEmail" name="buyerEmail"
+                  formControlName="buyerEmail" class="form-control validate">
+              </div>
+            </div>
+          </div>
+          <div class="text-danger h-1">
+          </div>
+          <div class="form-group row">
+            <div class="col-12">
+              <div class="md-form mb-0 mt-0">
+                <select name="buyerProvince" formControlName="buyerProvince" class="form-control validate">
+                  <option for="buyerProvince" disabled value="">Thành phố</option>
+                  <option *ngFor="let item of provinces" value="{{item.name}}">{{item.name}}</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="text-danger h-1">
+          </div>
+          <div class="form-group row">
+            <div class="col-12">
+              <div class="md-form mb-0 mt-0">
+                <textarea class="textarea validate" placeholder="Địa chỉ"></textarea>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="text-danger h-1">
+            <div class="row">
+              <div class="col-1"><input type="checkbox"></div>
+              <div class="col-11">
+                Tôi đồng ý với điều kiện điều khoản bảo hành của Lixil VietNam
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="text-danger h-1">
+            <div class="col-12 col-md-6">
+              <div class="row">
+                <div class="col-1"><input type="checkbox"></div>
+                <div class="col-11">
+                  Tôi đồng ý chia sẻ thông tin cá nhân với Lixil VietNam.<a href="">Xem chi tiết</a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <div class="modal-footer border-0 pl-5 pr-5">
+          <button class="custom-btn btnPrimary" (click)="activeWarranty()">Kích
+            hoạt</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

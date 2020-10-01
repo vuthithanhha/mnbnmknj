@@ -1,0 +1,123 @@
+.boxMain .col-6.bl span {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.sl {
+  margin: 10px;
+  align-content: center;
+  width: 80% !important;
+}
+
+.button {
+  background: #00bce4;
+  border-radius: 10px;
+}
+
+.button-content {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 15px;
+  //display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.bl {
+  margin: 10px;
+}
+
+.text-button-center {
+  text-align: center !important;
+  display: initial !important;
+}
+
+.custom-btn {
+  display: initial;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+  border-radius: 10px;
+  margin: 0;
+  text-transform: initial;
+  border: 1px solid transparent;
+  text-align: center !important;
+  width: 100%;
+  background-color: #00bce4;
+}
+
+.production-info {
+  color: #000000;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.title {
+  padding-top: 3%;
+  font-style: normal;
+  font-weight: 500;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.label {
+  font-style: normal;
+  font-weight: bold;
+  color: #E95D08;
+  display: flex;
+  //font-size: 15px;
+  //line-height: 18px;
+}
+
+.info {
+  font-style: normal;
+  font-weight: normal;
+  //font-size: 15px;
+  //line-height: 18px;
+  /* identical to box height */
+  align-items: center;
+  text-align: right;
+  color: #040404;
+}
+
+.boxMain .text-center {
+  margin-top: 8%;
+}
+
+.boxMain .text-center h5 {
+  color: orangered;
+}
+
+.boxMain .center .col-9 {
+  color: orangered;
+  font-size: 16px;
+}
+
+.boxMain .center .col-6 {
+  font-size: 15px;
+}
+
+.name {
+  font-size: 17px;
+  color: #000000;
+}
+
+.custname {
+  font-size: 20px;
+}
+
+.salcode {
+  font-size: 16px;
+}
+
+.hotline {
+  font-size: 15px;
+  color: orangered;
+}

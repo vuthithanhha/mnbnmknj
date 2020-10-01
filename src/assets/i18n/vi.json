@@ -1,0 +1,45 @@
+{
+  "common": {
+    "button": {
+      "CANCEL": "HỦY",
+      "FINISH": "KẾT THÚC",
+      "NEXT": "TIẾP THEO",
+      "SUBMIT": "GỬI HỒ SƠ",
+      "RE_SUBMIT": "GỬI LẠI",
+      "BACK": "QUAY LẠI",
+      "DELETE": "XÓA",
+      "SAVE": "LƯU",
+      "Message": "TRAO ĐỔI",
+      "REJECT": "HỦY",
+      "CLOSE": "ĐÓNG",
+      "UPLOAD": "TẢI LÊN",
+      "SEND": "GỬI",
+      "BOOK": "ĐĂNG KÝ",
+      "NEXT_STEP": "TIẾP THEO",
+      "SHORTLIST": "DANH SÁCH RÚT GỌN",
+      "SCHEDULE": "XẾP LỊCH",
+      "ADD_ITEM": "THÊM MỚI",
+      "USE_DEFAULT": "DÙNG MẶC ĐỊNH",
+      "SET_DEFAULT": "ĐẶT MẶC ĐỊNH",
+      "CONFIRM": "XÁC NHẬN",
+      "UPDATE": "CẬP NHẬT",
+      "START": "BẮT ĐẦU"
+    }
+  },
+  "login": {
+    "Email": "Email",
+    "EmailTitle": "Giá trị trường này phải là địa chỉ email hợp lệ",
+    "Password": "Mật khẩu",
+    "PasswordTitle": "Giá trị trường này phải là mật khẩu hợp lệ",
+    "emailNotVerifiedMessage": "Email vẫn chưa được xác minh!",
+    "badCredentialsMessage": "Thông tin xấu, vui lòng thử lại!",
+    "somethingWrong": "Đã xảy ra lỗi. Vui lòng thử lại!",
+    "Login": "Đăng nhập",
+    "ForgotPassword": "Quên mật khẩu",
+    "ResendVerifyEmail": "Gửi lại email xác minh",
+    "SocialNet": "Hoặc với mạng xã hội của bạn",
+    "LoginWith": "Đăng nhập với",
+    "NotRegistered": "Chưa đăng ký",
+    "CreateAnAccount": "Tạo một tài khoản"
+  }
+}

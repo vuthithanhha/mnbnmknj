@@ -1,0 +1,64 @@
+// ==== QR CODE ====
+.table-qr-code{
+    .thead,.tbody{
+        .item-table{
+            &:not(:last-child){
+                padding: 5px 8px;
+            }
+            &:nth-child(1){
+                width: 20%;
+            }
+            &:nth-child(2){
+                width: 17%;
+            }
+            &:nth-child(3){
+                width: 17%;
+            }
+            &:nth-child(4){
+                width: 17%;
+            }
+            &:nth-child(5){
+                width: 16%;
+            }
+            &:nth-child(6){
+                width: 13%;
+            }
+        }
+    }
+}
+.table-qr-code-carton{
+    .thead,.tbody{
+        .item-table{
+            &:not(:last-child){
+                padding: 5px 8px;
+            }
+            &:nth-child(1){
+                width: 10%;
+            }
+            &:nth-child(2){
+                width: 14%;
+            }
+            &:nth-child(3){
+                width: 12%;
+            }
+            &:nth-child(4){
+                width: 15%;
+            }
+            &:nth-child(5){
+                width: 6%;
+            }
+            &:nth-child(6){
+                width: 10%;
+            }
+            &:nth-child(7){
+                width: 10%;
+            }
+            &:nth-child(8){
+                width: 10%;
+            }
+            &:nth-child(9){
+                width: 13%;
+            }
+        }
+    }
+}

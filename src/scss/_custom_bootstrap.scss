@@ -1,0 +1,238 @@
+@import "_variables";
+
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+@media (max-width: 1366px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .modal-dialog {
+    max-width: 50%;
+  }
+}
+.form-group{
+  @media (max-width: 767px){
+    .col-12{
+      margin-bottom: 1rem;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+.modal-content{
+  border: 1px solid #808080;
+  box-sizing: border-box;
+  border-radius: 10px !important;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+input,
+button,
+select,.dropzone {
+  box-shadow: none !important;
+  border-color: #808080;
+  &:active,&:visited,&:focus,&:invalid{
+    border-color: $colorPrimary !important;
+  }
+}
+
+.form-control{
+  border-color:#808080 !important;
+  height: 46px !important;
+  border-radius: 10px !important;
+  margin: 0 !important;
+  padding: .375rem .75rem !important;
+}
+.textarea{
+  border-color:#808080 !important;
+  height: 92px !important;
+  border-radius: 10px !important;
+  margin: 0 !important;
+  width: 100%;
+  padding: .375rem .75rem !important;
+}
+.md-form{
+  border:0 !important;
+  input{
+    font-weight: 500;
+    border: 1px solid #808080 !important;
+    border-radius: 10px;
+    &:focus{
+      border: 1px solid $colorPrimary !important;
+    }
+  }
+  >input[type]:-webkit-autofill:not(.browser-default):not([type="search"])+label{
+    font-size: 1rem; 
+    transform-origin: 5px 24px;
+  }
+  label{
+    padding: 0 15px;
+    top: -2px;
+    &.active{
+      transform: translateY(-8px) scale(0.6) !important;
+      color: rgba(0, 0, 0, 0.6) !important;
+    }
+  }
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+  border-radius: 10px;
+  margin: 0;
+  text-transform: initial;
+}
+
+// Form upload
+.uploader {
+  display: block;
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+
+  label {
+    float: left;
+    clear: both;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background: #fff;
+    border: 1px dashed #808080;
+    transition: all .2s ease;
+    border-radius: 10px;
+    user-select: none;
+
+    &:hover {
+      border-color: $colorPrimary-1;
+    }
+    &.hover {
+      border: 1px solid $colorPrimary-1;
+      box-shadow: inset 0 0 0 6px #eee;
+      
+      #start {
+        i.fa {
+          transform: scale(0.8);
+          opacity: 0.3;
+        }
+      }
+    }
+  }
+
+  #start {
+    display: flex;
+    float: left;
+    clear: both;
+    width: 100%;
+    flex-wrap: wrap;
+    &.hidden {
+      display: none;
+    }
+    i.fa {
+      font-size: 50px;
+      margin-bottom: 1rem;
+      transition: all .2s ease-in-out;
+    }
+  }
+  #response {
+    float: left;
+    clear: both;
+    width: 100%;
+    &.hidden {
+      display: none;
+    }
+    #messages {
+      margin-bottom: .5rem;
+    }
+  }
+
+  #file-image {
+    display: inline;
+    margin: 0 auto .5rem auto;
+    width: auto;
+    height: auto;
+    max-width: 180px;
+    &.hidden {
+      display: none;
+    }
+  }
+  
+  #notimage {
+    display: block;
+    float: left;
+    clear: both;
+    width: 100%;
+    &.hidden {
+      display: none;
+    }
+  }
+
+  progress,
+  .progress {
+    // appearance: none;
+    display: inline;
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 180px;
+    height: 8px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #eee;
+    overflow: hidden;
+  }
+
+  .progress[value]::-webkit-progress-bar {
+    border-radius: 4px;
+    background-color: #eee;
+  }
+
+  .progress[value]::-webkit-progress-value {
+    background: linear-gradient(to right, darken($colorPrimary-1,8%) 0%, $colorPrimary-1 50%);
+    border-radius: 4px; 
+  }
+  .progress[value]::-moz-progress-bar {
+    background: linear-gradient(to right, darken($colorPrimary-1,8%) 0%, $colorPrimary-1 50%);
+    border-radius: 4px; 
+  }
+
+  input[type="file"] {
+    display: none;
+  }
+
+  div {
+    margin:0;
+    color: $dark-text;
+  }
+  .btn {
+    display: inline-block;
+    margin: .5rem .5rem 1rem .5rem;
+    clear: both;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: initial;
+    border: none;
+    border-radius: .2rem;
+    outline: none;
+    padding: 0 1rem;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    background: $colorPrimary-1;
+    border-color: $colorPrimary-1;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "common": {
+    "button": {
+      "CANCEL": "CANCEL",
+      "FINISH": "FINISH",
+      "NEXT": "NEXT",
+      "SUBMIT": "SUBMIT",
+      "RE_SUBMIT": "RE-SUBMIT",
+      "BACK": "BACK",
+      "DELETE": "DELETE",
+      "SAVE": "SAVE",
+      "Message": "Message",
+      "REJECT": "REJECT",
+      "CLOSE": "CLOSE",
+      "UPLOAD": "UPLOAD",
+      "SEND": "SEND",
+      "BOOK": "BOOK",
+      "NEXT_STEP": "NEXT STEP",
+      "SHORTLIST": "SHORTLIST",
+      "SCHEDULE": "SCHEDULE",
+      "ADD_ITEM": "ADD ITEM",
+      "USE_DEFAULT": "USE DEFAULT",
+      "SET_DEFAULT": "SET DEFAULT",
+      "CONFIRM": "CONFIRM",
+      "UPDATE": "UPDATE",
+      "START": "START"
+    }
+  },
+  "login": {
+    "Email": "Email",
+    "EmailTitle": "This field value must be valid email address",
+    "Password": "Password",
+    "PasswordTitle": "This field value must be valid password",
+    "emailNotVerifiedMessage": "Email has NOT verified yet!",
+    "badCredentialsMessage": "Bad Credentials, please try again!",
+    "somethingWrong": "Something went wrong, please try again!",
+    "Login": "LogIn",
+    "ForgotPassword": "Forgot Password",
+    "ResendVerifyEmail": "Resend an verify Email",
+    "SocialNet": "Or with your social network",
+    "LoginWith": "Login with",
+    "NotRegistered": "Not registered",
+    "CreateAnAccount": "Create an account"
+  }
+}

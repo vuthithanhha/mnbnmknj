@@ -1,0 +1,87 @@
+<div class="boxMain" *ngIf="production">
+  <div class="text-center">
+    <img class="lixilLogo" src="assets/images/logo.svg" alt="" />
+    <div class="name"><b>CÔNG TY TNHH LIXIL VIỆT NAM</b></div>
+    <div class="hotline">Hotline: 1800 6633</div>
+    <br />
+    <div class="custname"><b>SẢN PHẨM CHÍNH HÃNG INAX</b></div>
+
+    <div class="custname">
+      <b>{{ production.name }}</b>
+    </div>
+    <div class="salcode">{{ production.salcode }}</div>
+  </div>
+  <div class="col-12 col-md-6">
+    <div class="row">
+      <img class="img d-table m-auto" *ngIf="production.medias && production.medias.length > 0"
+        [src]="production.medias[0].url" alt="" />
+    </div>
+    <div class="row" style="padding-top: 5%">
+      <span>
+        <div>
+          <span *ngFor="let item of production.medias">
+            <img *ngIf="item.contactId == 'PROD_CODE'" style="margin-right: 3%; width: 17%; height: 80px"
+              src="{{ item.url }}" alt="picture" />
+          </span>
+        </div>
+      </span>
+    </div>
+  </div>
+  <div class="center">
+    <div class="col-12 col-md-6">
+      <div class="salcode"><b>THÔNG TIN SẢN PHẨM</b></div>
+      <div class="row">
+        <div class="col-6" style="color: orangered">Tên sản phẩm</div>
+        <div class="col-6 text-right">{{ production.name }}</div>
+      </div>
+      <div class="row">
+        <div class="col-6" style="color: orangered">Mã sản phẩm</div>
+        <div class="col-6 text-right">{{ production.salcode }}</div>
+      </div>
+    </div>
+    <div>
+      <div class="text-start">
+        <div class="col-12 col-md-6">
+          <div class="salcode"><b>TÍNH NĂNG VÀ CÔNG NGHỆ</b></div>
+          <p>{{ production.feature }}</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="salcode"><b>KÍCH THƯỚC</b></div>
+        <p>{{ production.size }}</p>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="salcode"><b>BẢN VẼ KỸ THUẬT</b></div>
+        <div class="row">
+          <div class="col-6 bl">
+            <span *ngFor="let raw of production.medias">
+              <img class="d-block w-100" *ngIf="raw.contactId == 'PROD_CODE_TECHNOLOGY'" src="{{ raw.url }}" alt="" />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6">
+      <div class="name">
+        Quý khách có câu hỏi về sản phẩm hoặc bảo hành vui lòng liên hệ
+      </div>
+      <div class="row">
+        <div class="col-3">Hotline:</div>
+        <div class="col-9">1800 6633</div>
+      </div>
+      <div class="row">
+        <div class="col-3">INAXfanpage</div>
+        <div class="col-9"></div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6">
+      <div class="row">
+        <div class="col-12">
+          <button class="custom-btn" (click)="activeWarranty(production.id)">
+            KÍCH HOẠT BẢO HÀNH
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

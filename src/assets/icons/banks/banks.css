@@ -1,0 +1,49 @@
+.ibank {
+    line-height: 40px;
+    height: 40px;
+    margin-left: 40px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.ibank::before {
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    background-size: 100% 100%;
+    background-position: center;
+    background-color: transparent;
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    left: -45px;
+}
+
+.ABB::before {background-image: url('./ic_ABBank_4@2x.png');}
+.ACB::before {background-image: url('./ic_ACB_4@2x.png');}
+.VARB::before {background-image: url('./ic_Agribank_4@2x.png');}
+.NASB::before {background-image: url('./ic_BacaBank_4@2x.png');}
+.BVB::before {background-image: url('./ic_BaoVietBank_4@2x.png');}
+.BIDV::before {background-image: url('./ic_BIDV_4@2x.png');}
+.DAB::before {background-image: url('./ic_dongabank_4@2x.png');}
+.EIB::before {background-image: url('./ic_Eximbank_4@2x.png');}
+.GPB::before {background-image: url('./ic_GPBank_4@2x.png');}
+.HDB::before {background-image: url('./ic_HDBank_4@2x.png');}
+.KLB::before {background-image: url('./ic_KienlongBank_4@2x.png');}
+.LPB::before {background-image: url('./ic_Lienvietpost_4@2x.png');}
+.MSB::before {background-image: url('./ic_maritimeBank_4@2x.png');}
+.MB::before {background-image: url('./ic_MBBank_4@2x.png');}
+.NVB::before {background-image: url('./ic_navibank_4@2x.png');}
+.OJB::before {background-image: url('./ic_oceanbank_4@2x.png');}
+.OCB::before {background-image: url('./ic_OCB_4@2x.png');}
+.STB::before {background-image: url('./ic_Sacombank_4@2x.png');}
+.SCB::before {background-image: url('./ic_SCB_4@2x.png');}
+.SEAB::before {background-image: url('./ic_seabank_4@2x.png');}
+.SHB::before {background-image: url('./ic_SHBank_4@2x.png');}
+.TCB::before {background-image: url('./ic_Techcombank_4@2x.png');}
+.TPB::before {background-image: url('./ic_TPbank_4@2x.png');}
+.VIB::before {background-image: url('./ic_VIBank_4@2x.png');}
+.VAB::before {background-image: url('./ic_vietabank_4@2x.png');}
+.VCB::before {background-image: url('./ic_Vietcombank_4@2x.png');}
+.CTG::before {background-image: url('./ic_Viettinban_4@2x.png');}
+.VPB::before {background-image: url('./ic_VPbank_4@2x.png');}

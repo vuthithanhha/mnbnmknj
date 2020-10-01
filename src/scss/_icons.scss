@@ -1,0 +1,88 @@
+@import "_variables";
+.icon{
+    height: 25px;
+    width: 25px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.iconGroup{
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $colorPrimary-1;
+}
+.iconBtn{
+    width: 15px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 15px;
+}
+.iconBtnImage{
+    background-image: url(../assets/images/icons/icon-image.svg);
+}
+.iconBtnAdd{
+    background-image: url(../assets/images/icons/icon-add.svg);
+}
+.icon-edit{
+    background-image: url(../assets/images/icons/icon-pen.svg);
+}
+.icon-delete{
+    background-image: url(../assets/images/icons/icon-delete.svg);
+}
+.icon-upload{
+    background-image: url(../assets/images/icons/icon-upload.svg);
+}
+.icon-export{
+    background-image: url(../assets/images/icons/icon-export.svg);
+}
+.icon-search{
+    background-image: url(../assets/images/icons/icon-search.svg);
+}
+.icon-arrow-drop-down-circle{
+    mask: url(../assets/images/icons/icon-arrow-drop-down-circle.svg) no-repeat center / contain;
+    -webkit-mask: url(../assets/images/icons/icon-arrow-drop-down-circle.svg) no-repeat center / contain;
+    background-color: #5a5a5a;
+}
+.icon-home{
+    mask: url(../assets/images/icons/icon-home.svg) no-repeat center / contain;
+    -webkit-mask: url(../assets/images/icons/icon-home.svg) no-repeat center / contain;
+}
+.icon-book{
+    mask: url(../assets/images/icons/icon-book.svg) no-repeat center / contain;
+    -webkit-mask: url(../assets/images/icons/icon-book.svg) no-repeat center / contain;
+}
+.icon-menu{
+    mask: url(../assets/images/icons/icon-menu.svg) no-repeat center / contain;
+    -webkit-mask: url(../assets/images/icons/icon-menu.svg) no-repeat center / contain;
+}
+.icon-qrcode{
+    mask: url(../assets/images/icons/icon-qrcode.svg) no-repeat center / contain;
+    -webkit-mask: url(../assets/images/icons/icon-qrcode.svg) no-repeat center / contain;
+}
+.icon-sale{
+    mask: url(../assets/images/icons/icon-sale.svg) no-repeat center / contain;
+    -webkit-mask: url(../assets/images/icons/icon-sale.svg) no-repeat center / contain;
+}
+.icon-heart{
+    mask: url(../assets/images/icons/icon-heart.svg) no-repeat center / contain;
+    -webkit-mask: url(../assets/images/icons/icon-heart.svg) no-repeat center / contain;
+}
+.icon-protected{
+    mask: url(../assets/images/icons/icon-protected.svg) no-repeat center / contain;
+    -webkit-mask: url(../assets/images/icons/icon-protected.svg) no-repeat center / contain;
+}
+.icon-warning{
+    mask: url(../assets/images/icons/icon-warning.svg) no-repeat center / contain;
+    -webkit-mask: url(../assets/images/icons/icon-warning.svg) no-repeat center / contain;
+}
+.icon-location{
+    mask: url(../assets/images/icons/icon-location.svg) no-repeat center / contain;
+    -webkit-mask: url(../assets/images/icons/icon-location.svg) no-repeat center / contain;
+}

@@ -1,0 +1,38 @@
+.text-center {
+  margin-top: 4%;
+}
+
+.title {
+  font-size: 1rem;
+}
+
+.boxMain .text-center p {
+  color: orangered;
+}
+
+.boxMain .col-6 {
+  color: orangered;
+  font-size: 0.94rem;
+}
+
+.boxMain .col-6 .text-right {
+  font-size: 0.94rem;
+}
+
+.custom-btn {
+  display: initial;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+  border-radius: 10px;
+  margin: 0;
+  text-transform: initial;
+  border: 1px solid transparent;
+  text-align: center !important;
+  width: 100%;
+}
+
+.custom-btn .img {
+  float: right;
+  margin-top: -15%;
+}

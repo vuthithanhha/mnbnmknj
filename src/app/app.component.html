@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container-fluid">
+    <!-- loader -->
+    <div class="loading" [hidden]="state.isLoaded" [ngClass]="{ 'loading-bg-blur': state.enableBgBlur }">
+        <div class="spinner-bounce-circle">
+            <div>Loading...</div>
+            <div>Info...</div>
+        </div>
+    </div>
+    <router-outlet></router-outlet>
+</div>

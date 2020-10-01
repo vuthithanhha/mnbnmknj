@@ -1,0 +1,8 @@
+<div class="boxMain">
+  <div class="">
+    <div *ngFor="let item of productionCode">
+      <img class="img d-table m-auto" *ngIf="(item.medias && item.medias.length > 0)" [src]="item.medias[0].url" alt="">
+      <img class="img d-table m-auto" *ngIf="!(item.medias && item.medias.length > 0)" src="" alt="picture">
+    </div>
+  </div>
+</div>
